@@ -25,10 +25,10 @@ except ImportError:
 
 async def main():
     try:
-        seyena.start()
-        bot.start()
+        await seyena.start()
+        await bot.start()
         await idle()
-        bot.send_message(
+        await bot.send_message(
             chat_id= Config.LOG_GROUP,
             text="started"
         )
@@ -39,10 +39,8 @@ async def main():
     except Exception as err:
         logger.error(err)
     
-    finally:
-        seyena.stop()
-        bot.stop()
 
+    
 if __name__ == "__main__":
     event_policy = asyncio.get_event_loop_policy()
     event_loop = event_policy.new_event_loop()

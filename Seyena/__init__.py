@@ -67,7 +67,7 @@ class ProSeyena:
             await callback(client, message)
         
         if self.filters != None:
-            seyena.add_handler(MessageHandler(wrapper, filters=filters.command(self.command, prefixes=Config.PREFIX) & self.filters), group=self.group)
+            seyena.add_handler(MessageHandler(wrapper, filters=filters.command(self.command, prefixes=["!", "$", "."]) & self.filters), group=self.group)
         else:
-            seyena.add_handler(MessageHandler(wrapper, filters=filters.command(self.command, prefixes=Config.PREFIX)), group=self.group)
+            seyena.add_handler(MessageHandler(wrapper, filters=filters.command(self.command, prefixes=["!", "$", "."])), group=self.group)
         return wrapper

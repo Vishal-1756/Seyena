@@ -10,8 +10,7 @@ class Config:
     SUDO_USERS: list = list(map(int, getenv("SUDO_USERS", "").split()))
     LOG_GROUP: int = getenv('LOG_GROUP')
     SUPER_USERS: list = list(map(int, getenv("SUPER_USERS", "").split()))
-    PREFIX: list = list(map(int, getenv("PREFIX", "").split()))
-    BOT_USERNAME: str = ""
+    BOT_USERNAME: str = "brotergebot"
     OWNER_NAME: str = getenv("OWNER_NAME", "root")
     SUPER_USERS.append(OWNER_ID)
     for x in SUPER_USERS:
