@@ -1,0 +1,4 @@
+{
+    "alive": "Am alive",
+    "start_Text": "{tick} Seyena Started Sucessfully\nOwner: {own}\nModules: {mod}\nBot Commands: {bmod}\nPython Version: {pyver}\nPyrogram Version: {pver}\nSeyena Version: {sver}"
+}
