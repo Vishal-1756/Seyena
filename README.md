@@ -3,7 +3,8 @@
 <br>
 
 ```markdown
-I request all developers to make pull as fast as they can all pulls will be mergerd if they are good else you will be allowed to modify it
+I request all developers to make pull as fast as they can all pulls will be mergerd
+if they are good else you will be allowed to modify it
 ```
 <br>
 <p align="center">
