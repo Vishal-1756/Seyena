@@ -1,15 +1,18 @@
 ## Seyena
-An open telegram userbot build for security and automate your task. 
+- [x] An open telegram userbot build for security and automate your task. 
+<br>
 
+```markdown
 I request all developers to make pull as fast as they can all pulls will be mergerd if they are good else you will be allowed to modify it
-
+```
+<br>
 <p align="center">
-  <img src="https://telegra.ph/file/6fa70325813885809a64a.jpg" alt="The Movie Provider Bot Logo">
+  <img src="https://telegra.ph/file/3ffb1e8bce66e0ceb6ab5.jpg" alt="Seyena Logo">
 </p>
 <h1 align="center">
-  <a href="[https://telegram.me/TheMovieProviderBot](https://t.me/Not_Coding_Support)">SEYENA</a>
+  <a href="https://t.me/Not_Coding_Support">SEYENA</a>
 </h1>
-
+<br>
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Heya+Users+Welcome+To+Our+Repository;A+Simple+Userbot+To+Automate+Your+Telegram+Account)
 </p>
 
