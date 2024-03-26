@@ -1,7 +1,10 @@
 from os import getenv
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class Config:
-    API_ID: int = getenv('API_ID')
+    API_ID = int(getenv('API_ID'))
     API_HASH: str = getenv('API_HASH')
     STRING_SESSION: str = getenv('STRING_SESSION')
     BOT_TOKEN: str = getenv("BOT_TOKEN")
@@ -30,4 +33,4 @@ class Config:
 
     @classmethod
     def get_bot_username(cls):
-        return cls.BOT_USERNAME    
+        return cls.BOT_USERNAME
