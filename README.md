@@ -13,6 +13,7 @@ I request all developers to make pull as fast as they can all pulls will be merg
   <a href="https://t.me/Not_Coding_Support">SEYENA</a>
 </h1>
 <br>
+
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Heya+Users+Welcome+To+Our+Repository;A+Simple+Userbot+To+Automate+Your+Telegram+Account)
 </p>
 
@@ -34,11 +35,12 @@ Soon We Will Add Some Commands Here
 * `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
 * `SESSION`: Get This Value From .[Run](https://github.com/Seyena/Seyena/blob/seyena/str_gen.py)
 
+<br>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/HarshalPurohitEdits/TheMovieProviderBot">
+<a href="https://heroku.com/deploy?template=https://github.com/Seyena/Seyena">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
@@ -48,6 +50,6 @@ Soon We Will Add Some Commands Here
 
 ## Note 🏷️
 
-Kanging this codes and and editing a few lines and releasing a V.x  or an [alpha]([https://telegram.dog/subin_works/204](https://t.me/Not_Coding_Support/15164)), beta , gama branches of your repo won't make you a Developer.
+Kanging this codes and and editing a few lines and releasing a V.x  or an [alpha](https://t.me/Not_Coding_Support/15164), beta , gama branches of your repo won't make you a Developer.
 Fork the repo and edit as per your needs.
 
