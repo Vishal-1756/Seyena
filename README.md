@@ -7,10 +7,10 @@ I request all developers to make pull as fast as they can all pulls will be merg
   <img src="https://telegra.ph/file/6fa70325813885809a64a.jpg" alt="The Movie Provider Bot Logo">
 </p>
 <h1 align="center">
-  <a href="https://telegram.me/TheMovieProviderBot">THE MOVIE PROVIDER BOT</a>
+  <a href="[https://telegram.me/TheMovieProviderBot](https://t.me/Not_Coding_Support)">SEYENA</a>
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELCOME+TO+THE-MOVIE-PROVIDER-BOT;A+SIMPLE+AND+POWERFUL+BOT!;A+BOT+WITH+CUSTOM+URL+SHORTNER;AND+CUSTOM+TUTORIAL!;ALSO+HAVE+STREAM+ONLINE;AND+FAST+DOWNLOAD+FEATURE!;AND+MANY+MORE+FEATURES!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Heya+Users+Welcome+To+Our+Repository;A+Simple+Userbot+To+Automate+Your+Telegram+Account)
 </p>
 
 ## Features
@@ -29,7 +29,7 @@ Soon We Will Add Some Commands Here
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 * `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
 * `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
-* `SESSION`: Get This Value From .[Replit
+* `SESSION`: Get This Value From .[Run](https://github.com/Seyena/Seyena/blob/seyena/str_gen.py)
 
 
 <details><summary>Deploy To Heroku</summary>
