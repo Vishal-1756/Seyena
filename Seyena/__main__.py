@@ -27,11 +27,12 @@ async def main():
     try:
         await seyena.start()
         await bot.start()
-        await idle()
-        await bot.send_message(
+        logger.info(Config.LOG_GROUP)
+        await seyena.send_message(
             chat_id= Config.LOG_GROUP,
             text="started"
         )
+        await idle()
 
     except KeyboardInterrupt:
         logger.warning("Forced stop… Bye!")

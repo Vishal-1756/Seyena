@@ -11,7 +11,7 @@ class Config:
     OWNER_ID: int = getenv("OWNER_ID")
     USER_ID: int = 0
     SUDO_USERS: list = list(map(int, getenv("SUDO_USERS", "").split()))
-    LOG_GROUP: int = getenv('LOG_GROUP')
+    LOG_GROUP: int = int(getenv('LOG_GROUP'))
     SUPER_USERS: list = list(map(int, getenv("SUPER_USERS", "").split()))
     BOT_USERNAME: str = "brotergebot"
     OWNER_NAME: str = getenv("OWNER_NAME", "root")

@@ -17,7 +17,8 @@ bot = Seyena(
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
     bot_token=Config.BOT_TOKEN,
-    plugins={"root": "Seyena.plugins.bot"}
+    plugins={"root": "Seyena.plugins.bot"},
+    user=False
 )
 
 seyena = Seyena(
