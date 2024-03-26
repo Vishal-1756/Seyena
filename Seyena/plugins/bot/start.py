@@ -1,6 +1,6 @@
 from pyrogram import filters, enums, Client 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-import config
+from config import Config
 import strings
 from ... import bot
 from ... import seyena
@@ -28,10 +28,10 @@ async def start(_, message):
      if user_id in SPAM:
          return await message.reply("[`DON'T SPAM HERE`]")
      SPAM.append(user_id)
-     await message.forward(config.GROUP_ID)
+     await message.forward(Config.LOG_GROUP)
      mention = f"[{name}](tg://user?id={id})"
      BUTTON=InlineKeyboardMarkup([[
-     InlineKeyboardButton("Deploy Your Own Seyena", url=config.SOURCE),]])
+     InlineKeyboardButton("Deploy Your Own Seyena", url=Config.SOURCE),]])
      await message.reply_text(text=strings.BOT_START.format(mention=mention, applive=applive, botlive=botlive),quote=True, reply_markup=BUTTON ,parse_mode=enums.ParseMode.MARKDOWN)
      await asyncio.sleep(20)
      SPAM.remove(user_id)
