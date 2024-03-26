@@ -1,8 +1,10 @@
-import asyncio, logging, platform
+import asyncio, logging, platform, importlib
 from pyrogram import idle
 from . import bot, seyena, lang
 from config import Config
 from .constants.symbols import Symbols
+from .plugins.bot import BOT_MODULES
+from .plugins.user import USER_MODULES
 
 logging.basicConfig(
     level=logging.INFO,
@@ -24,6 +26,10 @@ except ImportError:
         logger.warning("uvloop is not installed and therefore will be disabled.")
 
 async def main():
+    for x in BOT_MODULES:
+        importlib.import_module("Seyena.plugins.bot." + x)
+    for y in USER_MODULES:
+        importlib.import_module("Seyena.plugins.user." + y)
     try:
         await seyena.start()
         await bot.start()
