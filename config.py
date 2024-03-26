@@ -16,6 +16,7 @@ class Config:
     BOT_USERNAME: str = "brotergebot"
     OWNER_NAME: str = getenv("OWNER_NAME", "root")
     SUPER_USERS.append(OWNER_ID)
+    SOURCE = "https://github.com/Seyena/Seyena"
     for x in SUPER_USERS:
         SUDO_USERS.append(x)
     
